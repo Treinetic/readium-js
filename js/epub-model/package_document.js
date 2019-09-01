@@ -141,7 +141,7 @@ define(['jquery', 'underscore', 'URIjs', 'readium_cfi_js'],
 
 
         // Used in EpubReader (readium-js-viewer)
-        // https://github.com/readium/readium-js-viewer/blob/develop/lib/EpubReader.js#L59
+        // https://github.com/Treinetic/readium-js-viewer/blob/develop/lib/EpubReader.js#L59
         this.generateTocListDOM = function(callback) {
             var that = this;
             this.getTocDom(function (tocDom) {

@@ -76,7 +76,7 @@ require(["readium_shared_js/globalsSetup", "readium_shared_js/globals"], functio
             // repo1.sha = version.viewer.sha;
             // repo1.tag = version.viewer.tag;
             // repo1.clean = version.viewer.clean;
-            // repo1.url = "https://github.com/readium/" + repo1.name + "/tree/" + repo1.sha;
+            // repo1.url = "https://github.com/Treinetic/" + repo1.name + "/tree/" + repo1.sha;
             // window.navigator.epubReadingSystem.readium.buildInfo.gitRepositories.push(repo1);
 
             var repo2 = {};
@@ -88,7 +88,7 @@ require(["readium_shared_js/globalsSetup", "readium_shared_js/globals"], functio
             repo2.clean = version.readiumJs.clean;
             repo2.release = version.readiumJs.release;
             repo2.timestamp = version.readiumJs.timestamp;
-            repo2.url = "https://github.com/readium/" + repo2.name + "/tree/" + repo2.sha;
+            repo2.url = "https://github.com/Treinetic/" + repo2.name + "/tree/" + repo2.sha;
             window.navigator.epubReadingSystem.readium.buildInfo.gitRepositories.push(repo2);
 
             var repo3 = {};
@@ -100,7 +100,7 @@ require(["readium_shared_js/globalsSetup", "readium_shared_js/globals"], functio
             repo3.clean = version.readiumSharedJs.clean;
             repo3.release = version.readiumSharedJs.release;
             repo3.timestamp = version.readiumSharedJs.timestamp;
-            repo3.url = "https://github.com/readium/" + repo3.name + "/tree/" + repo3.sha;
+            repo3.url = "https://github.com/Treinetic/" + repo3.name + "/tree/" + repo3.sha;
             window.navigator.epubReadingSystem.readium.buildInfo.gitRepositories.push(repo3);
 
             if (version.readiumCfiJs)
@@ -114,7 +114,7 @@ require(["readium_shared_js/globalsSetup", "readium_shared_js/globals"], functio
                 repo4.clean = version.readiumCfiJs.clean;
                 repo4.release = version.readiumCfiJs.release;
                 repo4.timestamp = version.readiumCfiJs.timestamp;
-                repo4.url = "https://github.com/readium/" + repo4.name + "/tree/" + repo4.sha;
+                repo4.url = "https://github.com/Treinetic/" + repo4.name + "/tree/" + repo4.sha;
                 window.navigator.epubReadingSystem.readium.buildInfo.gitRepositories.push(repo4);
             }
 

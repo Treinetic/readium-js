@@ -64,8 +64,8 @@ define(
                     resolveResourceElements('object', 'data', 'blob', resolutionDeferreds, onerror);
                 }
 
-                // The code below is not needed since fix for https://github.com/readium/readium-js/issues/107
-                // See https://github.com/readium/readium-js/issues/105
+                // The code below is not needed since fix for https://github.com/Treinetic/readium-js/issues/107
+                // See https://github.com/Treinetic/readium-js/issues/105
                 //resolveDocumentIframes(resolutionDeferreds, onerror);
                 // resolveResourceElements('iframe', 'src', 'blob', resolutionDeferreds, onerror,
                 // function(data, uri, callback) {

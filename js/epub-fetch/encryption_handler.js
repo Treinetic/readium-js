@@ -52,7 +52,7 @@ define(['cryptoJs/sha1'], function (CryptoJS_SHA1) {
             
             var prefixLength = 1040;
             // Shamelessly copied from
-            // https://github.com/readium/readium-chrome-extension/blob/26d4b0cafd254cfa93bf7f6225887b83052642e0/scripts/models/path_resolver.js#L102 :
+            // https://github.com/Treinetic/readium-chrome-extension/blob/26d4b0cafd254cfa93bf7f6225887b83052642e0/scripts/models/path_resolver.js#L102 :
 
             xorObfuscatedBlob(obfuscatedResourceBlob, prefixLength, encryptionData.uidHash, callback);
         }

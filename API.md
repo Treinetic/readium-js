@@ -19,10 +19,10 @@ The constructor takes two arguments: readiumOptions and readerOptions. These arg
 
 **readerOptions' properties**
 * el - A string that is a css selector for the html element that will host the readium iframe. This iframe hosts the epub's content. 
-* annotationCSSUrl - relative url for the [annotations.css](https://github.com/readium/readium-js-viewer/blob/master/css/annotations.css) file. This is required if your application supports highlighting using readium-shared-js's implementation. 
+* annotationCSSUrl - relative url for the [annotations.css](https://github.com/Treinetic/readium-js-viewer/blob/master/css/annotations.css) file. This is required if your application supports highlighting using readium-shared-js's implementation. 
 * mathJaxUrl - relative url for the MathJax javascript file. Not required if useSimpleLoader is true in readiumOptions.
 
-A working example can be found in the readium-js-viewer project in the [EpubReader.js source code](https://github.com/readium/readium-js-viewer/blob/8abe97ce4457d176ef2f117e32e0b374cf903c49/lib/EpubReader.js#L696). 
+A working example can be found in the readium-js-viewer project in the [EpubReader.js source code](https://github.com/Treinetic/readium-js-viewer/blob/8abe97ce4457d176ef2f117e32e0b374cf903c49/lib/EpubReader.js#L696). 
 
 ### Step 2. Open an EPUB
 
@@ -43,17 +43,17 @@ function(packageDocument, options){
 //do something here
 }
 ```
-* packageDocument - this represents the parsed metadata for the opened epub. See the [source code](https://github.com/readium/readium-js/blob/master/epub-modules/epub/src/models/package_document.js) for this object for more information. 
+* packageDocument - this represents the parsed metadata for the opened epub. See the [source code](https://github.com/Treinetic/readium-js/blob/master/epub-modules/epub/src/models/package_document.js) for this object for more information. 
 * options - Contains additional info
  * metadata - raw metadata info
  * packageDocumentUrl - url of the epub's package xml file. 
 
 
-A working example of calling the openPackageDocument function is in the [EpubReader.js source code](https://github.com/readium/readium-js-viewer/blob/8abe97ce4457d176ef2f117e32e0b374cf903c49/lib/EpubReader.js#L59) in the readium-js-viewer project. 
+A working example of calling the openPackageDocument function is in the [EpubReader.js source code](https://github.com/Treinetic/readium-js-viewer/blob/8abe97ce4457d176ef2f117e32e0b374cf903c49/lib/EpubReader.js#L59) in the readium-js-viewer project. 
 
 ### Step 3. Use the readium-shared-js sdk to interact with Readium.
 
-You can use the Readium.reader property to interact with the actual epub reader. This is a readium-shared-js ReaderView object. You can find the documentation [here](https://dl.dropboxusercontent.com/u/18642964/Readium/Shared-JS%20JSDoc/ReadiumSDK.Views.ReaderView.html).
+You can use the Readium.reader property to interact with the actual epub reader. This is a readium-shared-js ReaderView object. You can find the documentation [here](https://dl.dropboxusercontent.com/u/18642964/Treinetic/Shared-JS%20JSDoc/ReadiumSDK.Views.ReaderView.html).
 
 This is the API that allows you to change book styles and settings. It also allows you to listen for various events in the book's lifecycle. For example, an important event is the CONTENT_DOCUMENT_LOADED event. This event is triggered when a new xhtml file has been successfully loaded into the reader. An example of registering for this event
 

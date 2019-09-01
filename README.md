@@ -2,14 +2,14 @@
 
 **EPUB core processing engine written in Javascript.**
 
-This is a software component used by the Readium Chrome extension and the "cloud reader" ( https://github.com/readium/readium-js-viewer ).
+This is a software component used by the Readium Chrome extension and the "cloud reader" ( https://github.com/Treinetic/readium-js-viewer ).
 
-Please see https://github.com/readium/readium-shared-js for more information about the underlying rendering engine.
+Please see https://github.com/Treinetic/readium-shared-js for more information about the underlying rendering engine.
 
 You can try Readium here:
 
 * Online "cloud reader" demo: https://readium.firebaseapp.com
-* Chrome extension (can be used offline): https://chrome.google.com/webstore/detail/readium/fepbnnnkkadjhjahcafoaglimekefifl
+* Chrome extension (can be used offline): https://chrome.google.com/webstore/detail/Treinetic/fepbnnnkkadjhjahcafoaglimekefifl
 
 ## License
 

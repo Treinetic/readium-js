@@ -3,7 +3,7 @@
   "name": "readium-js",
   "description": "Readium - core processing Javascript library",
   "version": "0.0.0",
-  "url": "https://github.com/readium/readium-js",
+  "url": "https://github.com/Treinetic/readium-js",
   "logo": "http://readium.org/sites/readium.org/files/header-logo.png",
   "options": {
     "linkNatives": "true",

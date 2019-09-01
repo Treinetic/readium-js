@@ -168,7 +168,7 @@ define(['jquery', 'URIjs', './markup_parser', './plain_resource_fetcher', './zip
 
             // Resources loaded for previously fetched document no longer need to be pinned:
             // DANIEL: what about 2-page synthetic spread of fixed layout documents / spine items?
-            // See https://github.com/readium/readium-js/issues/104
+            // See https://github.com/Treinetic/readium-js/issues/104
             _publicationResourcesCache.unPinResources();
 
 
